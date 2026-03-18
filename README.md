@@ -74,9 +74,9 @@ Wir empfehlen den Einsatz von **PM2** und **Nginx** auf einem Linux-Server (z.B.
     ```
 
 3.  **App mit PM2 starten:**
-    Erstellen Sie eine `ecosystem.config.js` oder starten Sie direkt:
+    Erstellen Sie eine `ecosystem.config.cjs` oder starten Sie direkt:
     ```bash
-    pm2 start pnpm --name "ldap-manager" -- start
+    pm2 start ecosystem.config.cjs
     ```
 
 4.  **Autostart aktivieren:**
